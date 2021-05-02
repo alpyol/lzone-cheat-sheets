@@ -8,6 +8,7 @@
     lxc-console      # Attach to running container
     lxc-stop
 
+    lxc-copy -n <source> -N <target>
     lxc-clone <source> <target>
     lxc-create -t <template> -f <config file>
     lxc-destroy
